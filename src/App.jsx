@@ -10,8 +10,8 @@ import Profile from './pages/Profile';
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />       
-      <Route path="/login" element={<Login />} />
+      <Route path="/login" element={<Home />} />       
+      <Route path="/" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/about" element={<About />} />
       <Route path="/dashboard" element={<Dashboard />} />
